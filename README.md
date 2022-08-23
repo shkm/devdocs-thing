@@ -1,7 +1,7 @@
 # DevDocs Thing
 Welcome to the creatively named DevDocs Thing.
 
-This is a simple wrapper around the wonderful [DevDocs](`https://devdocs.io`) service, providing a global keyboard shortcut and dedicated window for access.
+This is a simple wrapper around the wonderful [DevDocs](https://devdocs.io) service, providing a global keyboard shortcut and dedicated window for access.
 
 This project is currently in a hacky alpha state:
 - The global shortcut is hardcoded (Alt+Space)
