@@ -15,6 +15,13 @@ const createWindow = () => {
 app.whenReady().then(() => {
   const window = createWindow()
 
+  // New tab requests go to default browser
+  window.webContents.setWindowOpenHandler(({ url }) => {
+    shell.openExternal(url);
+    return { action: 'deny' }
+  });
+
+
   globalShortcut.register('Alt+Space', () => {
     if (window.isFocused()) {
       window.hide()
