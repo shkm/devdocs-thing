@@ -1,6 +1,6 @@
 {
   "name": "devdocs-thing",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Electron wrapper for devdocs.io.",
   "main": "main.js",
   "scripts": {
