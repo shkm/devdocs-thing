@@ -1,9 +1,9 @@
-const { app, BrowserWindow, globalShortcut } = require('electron')
+const { app, BrowserWindow, globalShortcut, shell } = require('electron')
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 1200,
-    height: 600,
+    minWidth: 1200,
+    minHeight: 600,
     autoHideMenuBar: true,
     title: 'DevDocs',
   })
