@@ -1,0 +1,25 @@
+{
+  "name": "devdocs-thing",
+  "version": "1.0.0",
+  "description": "Electron wrapper for devdocs.io.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shkm/devdocs-thing.git"
+  },
+  "keywords": [
+    "devdocs"
+  ],
+  "author": "Jamie Schembri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shkm/devdocs-thing/issues"
+  },
+  "homepage": "https://github.com/shkm/devdocs-thing#readme",
+  "devDependencies": {
+    "electron": "^20.0.3"
+  }
+}
